@@ -1,68 +1,80 @@
-# Priyansh Bot v2
+# 👑 Prince Bot 👑
 
-Welcome to **Priyansh Bot v2**! This is a powerful and customizable bot built for automating various tasks on Facebook Messenger.
+Hey, Prince! Welcome to your very own **Prince Bot**, a powerful and highly customizable bot built for automating various tasks on Facebook Messenger.
 
-## Table of Contents
+---
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [FCA Options](#fca-options)
-- [Contributing](#contributing)
-- [License](#license)
+### **Table of Contents**
 
-## Features
+- [🚀 Features](#-features)
+- [🛠️ Installation](#️-installation)
+- [⚙️ Usage](#️-usage)
+- [📦 Dependencies](#-dependencies)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
 
-- Supports Facebook chat automation.
-- Customizable commands and event handling.
-- Supports two different FCA (Facebook Chat API) packages.
-- Highly scalable and efficient for multiple users.
+---
 
-## Installation
+### **🚀 Features**
 
-To install the bot, follow these steps:
+- **Fully Customizable:** Easily modify commands, events, and bot behavior to suit your needs.
+- **Dynamic Configuration:** Manage all bot settings like prefix, owner ID, and bot name through a dedicated web dashboard. No need to manually edit JSON files!
+- **Robust API Support:** Built on a stable and efficient FCA (Facebook Chat API) to ensure smooth performance.
+- **Community Driven:** Comes with a wide range of pre-built commands for fun, utility, and administration.
+- **Scalable & Efficient:** Optimized for use in multiple chat groups simultaneously without performance issues.
 
-1. **Clone the repository**:
+---
+
+### **🛠️ Installation**
+
+Follow these simple steps to get your bot up and running in minutes:
+
+1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Priyansh-11/Priyansh-bot-v2.git
+    git clone [https://github.com/prince-official/prince-bot.git](https://github.com/prince-official/prince-bot.git)
     ```
 
-2. **Navigate to the project directory**:
+2.  **Navigate to the project directory:**
     ```bash
-    cd Priyansh-bot-v2
+    cd prince-bot
     ```
 
-3. **Install the dependencies**:
+3.  **Install the dependencies:**
     ```bash
     npm install
     ```
 
-4. **Start the bot**:
+4.  **Start the Bot (and the Web Dashboard):**
     ```bash
     npm start
     ```
+    Once the server is running, open your web browser and go to `http://localhost:8080` to configure and start your bot!
 
-## FCA Options
+---
 
-This project supports two FCA (Facebook Chat API) options:
+### **⚙️ Usage**
 
-1. **fca-priyansh**
-2. **priyanshu-fca** (Recommended)
+This bot is designed to be plug-and-play. Once you've configured it via the web dashboard:
 
-You can choose to use either of these options, but it's recommended to use **priyanshu-fca** for the best performance and stability.
+- **Commands:** All commands start with the prefix you set on the dashboard. Use `.help` to see a list of available commands.
+- **Customization:** Add your own commands and events by creating new files in the `Prince/commands` and `Prince/events` folders.
 
-## Usage
+---
 
-Once the bot is installed and running, you can:
+### **📦 Dependencies**
 
-- Customize commands and events in the respective directories.
-- Modify configurations as per your requirements.
-- Ensure you have the correct Facebook credentials for login.
+This project uses **fca-prince**, a stable and feature-rich library for Facebook Chat API.
 
-## Contributing
+It's powered by a comprehensive list of NPM packages for everything from image manipulation to web scraping, ensuring a rich set of features out of the box.
 
-Contributions are welcome! If you'd like to improve the bot, feel free to submit a pull request or open an issue.
+---
 
-## License
+### **🤝 Contributing**
+
+Contributions are highly welcome! Whether you want to fix a bug, add a new command, or improve the documentation, your help is appreciated. Feel free to submit a pull request or open an issue.
+
+---
+
+### **📜 License**
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
