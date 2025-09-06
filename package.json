@@ -1,49 +1,50 @@
 {
-    "name": "messenger-masti-bot",
-    "version": "1.0.0",
-    "description": "Messenger Masti Bot, a powerful and fun bot to make your chats more lively.",
-    "main": "prince.js",
+    "name": "Priyansh",
+    "version": "10.1.1",
+    "description": "A simple Facebook Messenger Bot made by 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭.",
+    "main": "Priyansh.js",
     "engines": {
         "node": "20.x",
         "npm": "10.0.0"
     },
     "scripts": {
         "start": "node index.js",
-        "test": "node --trace-warnings --use_strict --async-stack-traces prince"
+        "login": "node login",
+        "test": "node --trace-warnings --use_strict --async-stack-traces mirai"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/messenger-masti-bot/issues"
+        "url": "https://github.com/Priyansh-11/Priyansh-bot/issues"
     },
     "keywords": [
         "bot",
         "facebook",
+        "projectpriyansh",
         "messenger",
-        "javascript",
+        "javasvript",
+        "priyanshu",
         "prince",
-        "fun",
-        "masti"
+        "mental"
     ],
-    "author": "Prince",
+    "author": "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
     "license": "GPL-3.0",
     "bugs": {
-        "url": "https://github.com/messenger-masti-bot/issues"
+        "url": "https://github.com/Priyansh-11/Priyansh-bot/issues"
     },
-    "homepage": "https://github.com/messenger-masti-bot/issues",
+    "homepage": "https://github.com/Priyansh-11/Priyansh-bot/issues",
     "dependencies": {
         "@distube/ytdl-core": "^4.13.2",
         "@miraipr0ject/assets": "^1.0.9",
         "@replit/database": "^2.0.2",
         "@supercharge/strings": "^1.28.0",
         "akaneko": "^5.2.3",
-        "axios": "^0.26.1",
+        "axios": "^1.7.2",
         "body-parser": "^1.20.0",
         "caesar-salad": "^2.1.0",
         "canvas": "^2.9.3",
         "chalk": "^4.1.2",
         "chalkercli": "^1.6.4",
         "cheerio": "^0.22.0",
-        "child_process": "^1.0.2",
         "cloudscraper": "^4.6.0",
         "colors": "^1.4.0",
         "content-disposition": "^0.5.4",
@@ -55,7 +56,7 @@
         "express": "^4.19.2",
         "extract-zip": "^2.0.1",
         "fb-tools": "0.0.1-security",
-        "fca-unofficial": "latest",
+        "fca-priyansh": "^18.0.0",
         "figlet": "^1.5.2",
         "form-data": "^4.0.0",
         "fs-extra": "^10.1.0",
@@ -79,13 +80,11 @@
         "node-schedule": "^2.1.1",
         "node-schedule-tz": "^1.2.1-4",
         "node-superfetch": "^0.2.3",
-        "npm": "^9.4.2",
         "npmlog": "^7.0.1",
         "openai": "^3.2.1",
         "opusscript": "0.0.8",
         "os": "^0.1.2",
         "pastebin-api": "^4.0.1",
-        "path": "^0.12.7",
         "pidusage": "^3.0.0",
         "ping-monitor": "^0.6.2",
         "priyansh-fb-downloader": "^2.0.0",
@@ -108,8 +107,7 @@
         "totp-generator": "0.0.14",
         "uuid-apikey": "^1.5.3",
         "vtuber-wiki": "^1.1.5",
-        "websocket-stream": "^5.5.2",
-        "wikijs": "^6.3.3",
+        "ws": "^8.16.0",
         "youtube-search-api": "^1.1.0",
         "youtubei.js": "^1.4.5",
         "yt-search": "^2.10.4",
